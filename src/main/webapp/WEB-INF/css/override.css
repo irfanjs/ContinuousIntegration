@@ -1,0 +1,28 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+body {font-size: 12px;}
+@media (min-width:1200px) {
+.container {width:auto;}
+}
+@media (min-width: 992px) {
+  .container {
+    width: auto;
+  }
+}
+hr {margin:10px 0px;border:0;border-top:1px solid #ddd;}
+.container {padding-right:0px; padding-left:0px; margin-right:auto; margin-left:auto; height:100%;}
+.dropdown-menu {border-radius:0px !important;}
+input, select {border:1px solid #d2d9dc; padding:5px !important;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);border-radius:0px !important;}
+.btn {border-radius: 0px;}
+.nav-tabs > li > a {border-radius:0px !important;}
+.nav-tabs>li.active>a {}
+.panel, .panel-heading {border-radius:0px;border:none;}
+.panel-default > .panel-heading {overflow:hidden;font-weight:bold;padding:10px 10px 0px 10px;}
+.panel-default > .panel-heading:hover {border:none;cursor:move;}
+.panel-footer {padding: 10px;border-radius:0px;}
+.table {margin:0px;}
+.table > tbody > tr > td {vertical-align:middle;}
+.table>thead:first-child>tr:first-child>th {font-weight:normal;}
+.table>thead>tr>th {border:none;}
+.form-control {border-radius: 0px;}
+/*.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {padding:6px;}*/
